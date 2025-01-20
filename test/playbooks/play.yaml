@@ -1,6 +1,8 @@
 ---
 - name: Debug message
-  hosts: all
+  hosts: localhost
+  connection: local
+  gather_facts: false
 
   tasks:
   - name: Debug message
